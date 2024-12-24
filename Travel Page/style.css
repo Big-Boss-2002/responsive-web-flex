@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.bg-container{
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+    .bg-container{
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png');
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+.travel-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.travel-page-heading{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+@media screen and (min-width: 768px){
+    .travel-page-heading{
+        font-size: 32px;
+    }
+}
+.travel-page-description{
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+.button-section{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .button-section{
+        flex-direction: row;
+    } 
+}
+.button{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+.btn-get-started{
+    color: #183b56;
+}
+.btn-know-more{
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    color: #ffffff;
+}
